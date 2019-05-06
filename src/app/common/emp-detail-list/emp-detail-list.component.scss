@@ -1,0 +1,34 @@
+$table-font-color: #333;
+$table-border-color: #e9ebec;
+
+.index-page{
+    margin-top:10px
+}
+
+:host{
+  /deep/ {
+
+    table{
+      color: $table-font-color;
+      tr {
+        td,th{
+          border: 1px solid $table-border-color;
+        }
+      }
+    }
+    .ng2-smart-pagination .ng2-smart-page-item{
+       display: flex !important;
+    }
+  }
+}
+
+:host /deep/ ng2-smart-table {
+    font-size: 16px;
+    thead > tr > th  {
+        border: 1px solid grey;
+        background-color:#777;
+        a{
+            color:#eee;
+        }
+    }
+}
