@@ -33,4 +33,17 @@ Employee Registraion Form and Employee Details Application.
 -In Employee registraion and details,we have two components(except default component "App Component") and those are called as emp-register-component and emp-detail-list component
 -In this application one service is created and that is called as get-data.service
 
+Spring Boot Backend code
+===========================
+-To this application I made two rest api calls and one is for POST and another one is for GET
+-GET request is used to the get the employee details
+-POST is used post the emploee details into the spring boot or DB or file system.
+-Currently i have not used DB or file system,I just make it the global variable to hold the employee data.
+-Please find the GET request URL
+http://localhost:9440/employees
+-Please find teh POST request url
+http://localhost:9440/employees/<empobject>
+ -I used swagegr UI to see these rest apis urls and also the documentation.
+ http://localhost:9440/swagger-ui.html
+ 
 
