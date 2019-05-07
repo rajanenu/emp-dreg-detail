@@ -33,3 +33,4 @@ Employee Registraion Form and Employee Details Application.
 -In Employee registraion and details,we have two components(except default component "App Component") and those are called as emp-register-component and emp-detail-list component
 -In this application one service is created and that is called as get-data.service
 
+
